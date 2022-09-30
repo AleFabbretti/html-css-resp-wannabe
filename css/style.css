@@ -140,12 +140,21 @@ img {
 
     .container{
         width: 100%;
-        max-width: 1140px;
+        max-width: 768px;
         margin: auto;
     }
     
     .row{
         justify-content: space-around;
     }
+}
+
+@media screen and (max-width: 480px) {
+
+    .row{
+        flex-wrap: wrap;
+    }
+    
+    
     
 }
