@@ -136,3 +136,16 @@ img {
     }
  }
 
+ @media screen and (max-width: 768px) {
+
+    .container{
+        width: 100%;
+        max-width: 1140px;
+        margin: auto;
+    }
+    
+    .row{
+        justify-content: space-around;
+    }
+    
+}
