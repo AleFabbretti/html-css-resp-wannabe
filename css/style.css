@@ -151,10 +151,51 @@ img {
 
 @media screen and (max-width: 480px) {
 
-    .row{
-        flex-wrap: wrap;
+    .container{
+        width: 100%;
+        max-width: 480px;
+        margin: auto;
     }
     
-    
-    
+    .row{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    html {
+        font-size: 21px;
+    }
+
+    .lessons .col {
+        width: 100%;
+        margin-top: 2.5rem;
+    }
+
+    .steps .col {
+        width: 100%;
+        margin-top: 3rem;
+    }
+
+    h2{
+        margin-bottom: 0;
+    }
+
+    .why-us{
+        background-color: #222222;
+        margin-bottom: 0;
+        padding: 3rem 0; 
+    }
+
+    .why-us .col-right {
+        width: 100%;
+    }
+
+    .why-us .col-left {
+        width: 100%;
+        padding-bottom: 3rem;
+    }
+
+    .steps{
+        margin-bottom: 0px;
+    }
 }
